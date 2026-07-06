@@ -8,51 +8,89 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a first-year master's student in Computer Science and Technology at Shenzhen University, advised by Asst. Prof. [Yile Wang](https://ylwangy.github.io/). My research lies in memory-augmented interactive AI. Currently, I focus on long-term memory for dialogue systems and interpretable text embeddings. Building on these, I aim to shift systems from passively retrieving past interactions to actively anticipating users' future needs, fostering a seamlessly evolving personalized experience.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Before joining Shenzhen University, I received my B.S. in Communication Engineering from Wuyi University, advised by Prof. [Yikui Zhai](https://ieeexplore.ieee.org/author/37404405700).
 
+**Contact:** L6-713, Zhizhen Building, Shenzhen University, Nanshan District, Shenzhen, China.
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='news'></span>
 
-# 📝 Publications 
+# News
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- *2026.04*: 🎉 Two papers accepted to **ACL 2026 Findings**.
+- *2025.09*: Completed my research internship in the Foundation Model Department at [RayNeo Tech](https://rayneo.cn/).
+- *2025.04*: 🎉 One paper accepted to **ACL 2025 Findings**.
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<span class='anchor' id='publications'></span>
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+# Publications
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/pubpic/anchormem_method.png' alt='AnchorMem framework' width='100%'></div></div>
+<div class='paper-box-text' markdown='1'>
+
+[**AnchorMem: Anchored Facts with Associative Contexts for Building Memory in Large Language Models**](https://arxiv.org/abs/2604.17377)
+
+**Zhanyu Shen**, Sijie Cheng, Zhicheng Guo, Weiqin Wang, Yile Wang, Hui Huang.
+
+ACL 2026 Findings.
+
+We propose a new memory method helping conversational agents remember long-term dialogue history more accurately.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/pubpic/lifedialbench_method.png' alt='LifeDialBench framework' width='100%'></div></div>
+<div class='paper-box-text' markdown='1'>
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Evaluating Memory Capability in Continuous Lifelog Scenario**](https://arxiv.org/abs/2604.11182)
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+Jianjie Zheng, Zhichen Liu, **Zhanyu Shen**, Jingxiang Qu, Guanhua Chen, Yile Wang, Yang Xu, Yang Liu, Sijie Cheng.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+ACL 2026 Findings.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+We generate round-the-clock daily dialogue records through language model simulation to evaluate the long-term memory capability of conversational agents.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/pubpic/ldir_method.png' alt='LDIR method' width='100%'></div></div>
+<div class='paper-box-text' markdown='1'>
+
+[**LDIR: Low-Dimensional Dense and Interpretable Text Embeddings with Relative Representations**](https://arxiv.org/abs/2505.10354)
+
+Yile Wang, **Zhanyu Shen**, Hui Huang.
+
+ACL 2025 Findings.
+
+We propose low-dimensional dense and interpretable text embeddings with relative representations.
+</div>
+</div>
+
+<span class='anchor' id='experience'></span>
+
+# Research/Work Experiences
+
+- *Mar. 2025 - Aug. 2025*, **Research Intern**, Foundation Model Department, [RayNeo Tech](https://rayneo.cn/), Shenzhen, China.<br>
+  Mentor: [Sijie Cheng](https://adacheng.github.io/). Responsible for the continuous improvement and optimization of the dialogue system service.
+
+- *Oct. 2024 - Aug. 2025*, **Research Intern**, Visual Computing Research Center, Shenzhen University, Shenzhen, China.<br>
+  Advisor: Asst. Prof. [Yile Wang](https://ylwangy.github.io/). Conducted analysis of interpretability in text embeddings.
+
+<span class='anchor' id='awards'></span>
+
+# Awards
+
+- National Grand Prize, 18th Challenge Cup Black Tech Competition, 4th author.
+- National Bronze Award, 14th Challenge Cup Entrepreneurship Competition, team leader.
+- Provincial Grand Prize, 17th Challenge Cup Academic Competition, 2nd author.
+
+<span class='anchor' id='education'></span>
+
+# Education
+
+- *Sept. 2025 - Present*, **Shenzhen University**, Shenzhen, China.<br>
+  Master in Computer Science and Technology. Advisor: Asst. Prof. [Yile Wang](https://ylwangy.github.io/).
+
+- *Sept. 2021 - June 2025*, **Wuyi University**, Jiangmen, China.<br>
+  B.S. in Communication Engineering. Advisor: Prof. [Yikui Zhai](https://ieeexplore.ieee.org/author/37404405700).
